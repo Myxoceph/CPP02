@@ -6,7 +6,7 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:29:59 by abakirca          #+#    #+#             */
-/*   Updated: 2024/12/13 17:58:15 by abakirca         ###   ########.fr       */
+/*   Updated: 2024/12/13 18:11:27 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,3 +76,4 @@ std::ostream &operator<<(std::ostream &str, const Fixed &opCopy)
     str << opCopy.toFloat();
     return (str);
 }
+
