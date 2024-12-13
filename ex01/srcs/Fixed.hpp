@@ -6,7 +6,7 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:29:56 by abakirca          #+#    #+#             */
-/*   Updated: 2024/12/13 14:00:41 by abakirca         ###   ########.fr       */
+/*   Updated: 2024/12/13 16:10:30 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,17 @@ class Fixed
 	
 	public:
 		Fixed();
+		Fixed(const int x);
+		Fixed(const float x);
 		Fixed(const Fixed &copy);
 		Fixed &operator=(const Fixed &copy);
 		~Fixed();
 		int getRawBits( void ) const;
 		void setRawBits( int const raw );
+		float toFloat ( void ) const;
+		int toInt ( void ) const;
 };
+
+std::ostream &operator<<(std::ostream &str, const Fixed &opCopy);
 
 #endif
