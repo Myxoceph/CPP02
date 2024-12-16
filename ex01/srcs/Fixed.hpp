@@ -6,7 +6,7 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:29:56 by abakirca          #+#    #+#             */
-/*   Updated: 2024/12/13 16:10:30 by abakirca         ###   ########.fr       */
+/*   Updated: 2024/12/16 16:02:12 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,10 @@
 #define FIXED_HPP
 
 #include <iostream>
+#include <cmath>
+
+#define GREEN "\033[32m"
+#define RESET "\033[0m"
 
 class Fixed
 {
