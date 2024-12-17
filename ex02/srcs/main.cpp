@@ -6,7 +6,7 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:30:01 by abakirca          #+#    #+#             */
-/*   Updated: 2024/12/16 15:40:58 by abakirca         ###   ########.fr       */
+/*   Updated: 2024/12/17 14:49:56 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int main( void )
 	Fixed c(42.42f);
 	Fixed d(21.42f);
 	std::cout << "c : " << c << std::endl;
-	std::cout << "c++ : " << ++c << std::endl;
 	std::cout << "d : " << d << std::endl;
 	std::cout << "c + d : " << c + d << std::endl;
 	std::cout << "c - d : " << c - d << std::endl;

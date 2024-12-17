@@ -6,7 +6,7 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:29:59 by abakirca          #+#    #+#             */
-/*   Updated: 2024/12/16 16:02:16 by abakirca         ###   ########.fr       */
+/*   Updated: 2024/12/17 15:59:11 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,12 +52,16 @@ Fixed::Fixed(const int x)
 {
 	std::cout << GREEN"Int constructor called."RESET << std::endl;
 	this->value = x << this->fracBits;
+	//debug std::cout << GREEN"Value of this Int externally is -> "RESET << x << std::endl;
+	//debug std::cout << GREEN"Value of this Int internally is -> "RESET << this->value << std::endl;
 }
 
 Fixed::Fixed(const float x)
 {
 	std::cout << GREEN"Float constructor called."RESET << std::endl;
 	this->value = roundf(x * (1 << this->fracBits));
+	//debug std::cout << GREEN"Value of this Float externally is -> "RESET << x << std::endl;
+	//debug std::cout << GREEN"Value of this Float internally is -> "RESET << this->value << std::endl;
 }
 
 int Fixed::toInt( void ) const
