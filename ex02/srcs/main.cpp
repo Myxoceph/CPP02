@@ -6,11 +6,10 @@
 /*   By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 16:30:01 by abakirca          #+#    #+#             */
-/*   Updated: 2024/12/17 14:49:56 by abakirca         ###   ########.fr       */
+/*   Updated: 2024/12/18 14:24:32 by abakirca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
 #include "Fixed.hpp"
 
 int main( void )
